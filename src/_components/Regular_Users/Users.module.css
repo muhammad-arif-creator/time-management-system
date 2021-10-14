@@ -1,0 +1,33 @@
+.regularUsersWrapper td,
+.regularUsersWrapper th {
+  text-align: center;
+  min-width: 100px;
+}
+.regularUsersWrapper td:last-child {
+  text-align: left;
+  padding-left: 25px !important;
+  min-width: 200px;
+}
+.regularUsersWrapper {
+  box-shadow: 0px 7px 7px #d2d2d2;
+  padding-bottom: 1px;
+}
+
+.topBar {
+  background-color: #6dabe4;
+  color: #fff;
+  padding: 0px 30px;
+}
+
+.addUserBar {
+  padding: 30px 15px;
+}
+
+.tableWrapper {
+  padding: 0px 15px;
+}
+.regularUsersWrapper .tableHead th {
+  background-color: #6dabe4;
+  color: #fff;
+  border-color: #6dabe4;
+}

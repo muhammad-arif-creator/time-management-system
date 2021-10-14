@@ -1,0 +1,34 @@
+.filter input {
+  max-width: 230px;
+  min-height: 47px;
+}
+
+.cardLog {
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+.logcard {
+  margin: 50px 0px;
+}
+.cardLog:hover .update {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+.topBar {
+  background-color: #6dabe4;
+  color: #fff;
+  padding: 0px 30px;
+}
+.update {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  justify-content: center;
+  z-index: 3;
+}

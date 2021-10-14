@@ -1,0 +1,57 @@
+.registerPage {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.signupContent {
+  padding: 60px 0px;
+  box-shadow: 0 15px 16.83px 0.17px rgb(0 0 0 / 5%);
+  -moz-box-shadow: 0 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 15px 16.83px 0.17px rgb(0 0 0 / 5%);
+  -o-box-shadow: 0 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.signupContent input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 12px 30px;
+  font-family: Poppins;
+  box-sizing: border-box;
+  border-radius: 0px;
+  columns: #333;
+}
+
+.signupContent input::placeholder {
+  color: #8e8f90;
+  font-size: 13px;
+}
+
+.signupForm {
+  margin-left: 0px;
+  margin-right: 75px;
+  padding-left: 20px;
+}
+.formGroup {
+  position: relative;
+}
+
+.formGroup span {
+  position: absolute;
+  left: 0px;
+  top: 17px;
+  color: #8e8f90;
+  font-size: 18px;
+}
+
+@media (max-width: 1023px) {
+  .signupForm {
+    padding: 0px 30px;
+    margin-left: 0px;
+  }
+}

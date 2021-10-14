@@ -1,0 +1,26 @@
+.formGroup {
+  position: relative;
+}
+
+.formGroup span {
+  position: absolute;
+  left: 0px;
+  top: 17px;
+  color: #8e8f90;
+  font-size: 18px;
+}
+.formGroup input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 12px 30px;
+  font-family: Poppins;
+  box-sizing: border-box;
+  border-radius: 0px;
+  columns: #333;
+}
+
+.my_modal {
+  display: block !important;
+}
